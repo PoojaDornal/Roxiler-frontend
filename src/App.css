@@ -1,0 +1,65 @@
+
+/* search Bar */
+.App{
+  background-color: aliceblue;
+  text-align: center;
+}
+.searchBar{
+  padding:2vw 4vw 2vw 4vw;
+  display: flex;
+  justify-content: space-between;
+   background-color: rgb(109, 75, 230);
+}
+
+#months{
+  width: 150px;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Table */
+.table {
+  margin: 4vw; 
+  
+}
+table ,tr,th ,td {  
+  border: 1px solid black;  
+  background-color: rgb(185, 224, 248);
+ }  
+
+img{
+  height: calc(40px + 5vw);
+  width: calc(30px + 5vw);
+}
+
+/* Pie chart */
+.pieChart{
+  height: calc(150px + 20vw);
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw ;
+}
+
+/* barChart */
+.barChart{
+  height: calc(100px + 20vw);
+  display: flex;
+  justify-content: center;
+  padding: 10vw;
+}
+
+/* statistics */
+.statistics{
+  display: flex;
+  justify-content: center;
+  margin: 10vw;
+  padding: 30px;
+}
+
+/* progress  */
+.progress{
+  height: 100vh;
+  padding-top: 40vh;
+  display: flex;
+  justify-content: center;
+}
